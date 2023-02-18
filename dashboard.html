@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>event page</title>
+    </head>
+<body>
+    <link rel="stylesheet" text="style.css">
+  <div class="layout">
+
+    <a class="header" href="#0">
+      <i class="fa fa-bars"></i>
+      <div class="header-user"><i class="fas fa-user-circle icon"></i>event details</div>
+    </a>
+
+    <div class="sidebar">
+      <ul>
+        <li> <a class="sidebar-list-item" href="#0"></i><em>Dashboard</em></a></li>
+        <li> <a class="sidebar-list-item" href="#0"></i><em>Users</em></a></li>
+        <li> <a class="sidebar-list-item" href="#0"></i><em>Projects</em></a></li>
+        <li> <a class="sidebar-list-item active" href="#0"></i><em>Events</em></a>
+        </li>
+        </li>
+        <li> <a class="sidebar-list-item" href="#0"></i><em>Feedback</em></a></li>
+        </li>
+      </ul>
+    </div>
+
+    <main class="content">
+      <div class="main-header">
+        <div class="main-title">
+          <h1>New Event</h1>
+        </div>
+        <div class="main-form">
+          <form name="event">
+            <input type="text" placeholder="Add title"><br>
+            <input type="text"  placeholder="Add description"><br>
+            <input type="text"  placeholder="Add location"><br>
+              <div class="input-group">
+              <input type="date" id="fdate">
+              <label for="fallday" class="all_day">All day:</label>
+              <input type="checkbox" class="checkbox" onchange="form_display_hour()">
+            </div>
+
+              </div>
+            </div>
+
+            <input type="submit" id="fsubmit" value="Save" class="button">
+          </form>
+        </div>
+      </div>
+    </main>
+</div>
+</body>
